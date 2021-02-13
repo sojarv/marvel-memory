@@ -1,0 +1,128 @@
+$card-margin: 15px;
+$font-family: 'Bangers',
+cursive;
+$font-size: 1.5em;
+$marvel-red: #ED1D24;
+$primary-color: #E6E8E6;
+body {
+    margin: 0px;
+    background-image: url('./board.jpg');
+    font: {
+        family: $font-family;
+        size: $font-size;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.cardContainer {
+    margin-top: 0px;
+    display: grid;
+    justify-content: center;
+    @media screen and (max-width: 750px) {
+        grid-template-columns: auto;
+    }
+    @media screen and (min-width: 751px) {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+.card {
+    background-color: $primary-color;
+    border-radius: 10px;
+    margin: 0px $card-margin $card-margin $card-margin;
+    padding: 15px 0;
+    min-height: 257px;
+    min-width: 200px;
+    animation: fade-in 3s;
+    img {
+        display: block;
+        margin: auto;
+        transition-duration: 1s;
+    }
+    p {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#end {
+    button {
+        display: block;
+        margin: auto;
+    }
+    p {
+        font: {
+            size: 1.5em;
+        }
+    }
+}
+
+#header {
+    background-color: $marvel-red;
+    padding: 5px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+#score {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    color: $primary-color;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: $primary-color;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+#footerData {
+    padding: 5px;
+    display: flex;
+    div {
+        width: 33%;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        width: 33%;
+        margin: auto;
+        padding: 0px;
+    }
+    a {
+        text-align: center;
+        width: 33%;
+        text-decoration: none;
+        color: black
+    }
+}
+
+#end {
+    color: $primary-color;
+    text-align: center;
+    button {
+        margin: auto;
+        width: 200px;
+        height: 65px;
+        background-color: $marvel-red;
+        color: $primary-color;
+        border: none;
+        border-radius: 32px;
+        font: {
+            family: $font-family;
+            size: 1em;
+        }
+    }
+}
