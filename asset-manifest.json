@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/marvel-memory/static/css/main.be0fa00c.chunk.css",
+    "main.js": "/marvel-memory/static/js/main.2ac7ac70.chunk.js",
+    "main.js.map": "/marvel-memory/static/js/main.2ac7ac70.chunk.js.map",
+    "runtime-main.js": "/marvel-memory/static/js/runtime-main.bb8926f4.js",
+    "runtime-main.js.map": "/marvel-memory/static/js/runtime-main.bb8926f4.js.map",
+    "static/js/2.944ca593.chunk.js": "/marvel-memory/static/js/2.944ca593.chunk.js",
+    "static/js/2.944ca593.chunk.js.map": "/marvel-memory/static/js/2.944ca593.chunk.js.map",
+    "index.html": "/marvel-memory/index.html",
+    "static/css/main.be0fa00c.chunk.css.map": "/marvel-memory/static/css/main.be0fa00c.chunk.css.map",
+    "static/js/2.944ca593.chunk.js.LICENSE.txt": "/marvel-memory/static/js/2.944ca593.chunk.js.LICENSE.txt",
+    "static/media/MarvelLogo.ce377fd3.svg": "/marvel-memory/static/media/MarvelLogo.ce377fd3.svg",
+    "static/media/App.scss": "/marvel-memory/static/media/board.de2e2e4d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb8926f4.js",
+    "static/js/2.944ca593.chunk.js",
+    "static/css/main.be0fa00c.chunk.css",
+    "static/js/main.2ac7ac70.chunk.js"
+  ]
+}
