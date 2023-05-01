@@ -8,5 +8,4 @@ Live page can be found at https://sojarv.github.io/marvel-memory/
 
 TO-DO:
 
-- make it more mobile friendly (footer jumps up)
 - make use of API
